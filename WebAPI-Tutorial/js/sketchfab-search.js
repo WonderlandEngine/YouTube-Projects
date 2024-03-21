@@ -22,24 +22,24 @@ export class SketchfabSearch extends Component {
             .then(response => response.json())
             .then(r => {
                 let i = 0;
+
                 for (const model of r.results) {
                     const name = model.name;
-                    
+
                     let row = Math.floor(i / this.columnCount);
                     let col = i % this.columnCount;
                     let y = -0.6 * row;
                     let x = 0.6 * col;
-                    
-                    const c = this.engine.scene.addObject(this.object);
-                    c.translateLocal([x, y, 0]);
-                    c.setScalingLocal([0.5, 0.5, 0.5]);
-                    c.addComponent(TextComponent, {
+
+                    const textObject = this.engine.scene.addObject(this.object);
+                    textObject.translateLocal([x, y, 0]);
+                    textObject.setScalingLocal([0.5, 0.5, 0.5]);
+                    textObject.addComponent(TextComponent, {
                         text: name,
                         material: this.textMaterial
                     })
 
-                    const plane = this.engine.scene.addObject(c);
-
+                    const plane = this.engine.scene.addObject(textObject);
                     // Clone the material so we do not change the original
                     const mat = this.planeMaterial.clone();
                     const thumbnails = model.thumbnails.images;
