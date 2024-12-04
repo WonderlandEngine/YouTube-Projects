@@ -16,13 +16,10 @@ This is a simple **Whack A Mole** game built using [Wonderland Engine](https://w
 
 ## How to Use
 
-1. Download the ZIP file from the repository or clone it using the command:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/Whack-A-Mole.git
-    ```
+1. Clone the repository or download the zip file.
 2. Open the project in Wonderland Engine.
 3. Ensure you're using version 1.2.1 or later.
-4. Build and run the project to play.
+4. Build and run the project to explore.
 
 ## YouTube Tutorial
 
