@@ -1,0 +1,1 @@
+Tested and confirmed working with Wonderland Engine v1.5.2
