@@ -1,0 +1,14 @@
+import * as __wonderlandengine_components from '@wonderlandengine/components';
+_registerEditor(__wonderlandengine_components);
+import * as _D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_burst_mesh_particles_js from 'D:/F/Wonderland Engine/Wonderland Projects/Fruit Ninja/vegetables-ninja/js/burst-mesh-particles.js';
+_registerEditor(_D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_burst_mesh_particles_js);
+import * as _D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_button_js from 'D:/F/Wonderland Engine/Wonderland Projects/Fruit Ninja/vegetables-ninja/js/button.js';
+_registerEditor(_D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_button_js);
+import * as _D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_ground_destroyer_js from 'D:/F/Wonderland Engine/Wonderland Projects/Fruit Ninja/vegetables-ninja/js/ground-destroyer.js';
+_registerEditor(_D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_ground_destroyer_js);
+import * as _D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_player_js from 'D:/F/Wonderland Engine/Wonderland Projects/Fruit Ninja/vegetables-ninja/js/player.js';
+_registerEditor(_D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_player_js);
+import * as _D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_spawner_js from 'D:/F/Wonderland Engine/Wonderland Projects/Fruit Ninja/vegetables-ninja/js/spawner.js';
+_registerEditor(_D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_spawner_js);
+import * as _D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_sword_js from 'D:/F/Wonderland Engine/Wonderland Projects/Fruit Ninja/vegetables-ninja/js/sword.js';
+_registerEditor(_D__F_Wonderland_Engine_Wonderland_Projects_Fruit_Ninja_vegetables_ninja_js_sword_js);
