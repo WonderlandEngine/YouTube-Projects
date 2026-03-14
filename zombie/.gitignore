@@ -1,0 +1,9 @@
+# ========== Wonderland Engine ==========
+.autosave/
+.editor/
+cache/
+deploy/
+
+# ========== Node & JavaScript ==========
+node_modules/
+package-lock.json

@@ -1,0 +1,6058 @@
+{
+    "objects": {
+        "707": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "774",
+            "translation": [
+                -0.000001,
+                4.768369876728684e-7,
+                -0.000001
+            ],
+            "rotation": [
+                -0.0001723,
+                0.7071071,
+                -0.7071063,
+                -0.0001725
+            ],
+            "scaling": [
+                0.0099998,
+                0.0099997,
+                0.0099997
+            ],
+            "name": "Armature",
+            "components": []
+        },
+        "708": {
+            "link": {
+                "name": "Ch10<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "707",
+            "components": [
+                {
+                    "originalIndex": 0,
+                    "mesh": {
+                        "skin": "485"
+                    }
+                },
+                {
+                    "originalIndex": 1,
+                    "mesh": {
+                        "skin": "485"
+                    }
+                }
+            ],
+            "name": "ZombieMesh"
+        },
+        "709": {
+            "link": {
+                "name": "mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "707",
+            "skin": "485"
+        },
+        "710": {
+            "link": {
+                "name": "mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "709",
+            "skin": "485"
+        },
+        "711": {
+            "link": {
+                "name": "mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "710",
+            "skin": "485"
+        },
+        "712": {
+            "link": {
+                "name": "mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "711",
+            "skin": "485"
+        },
+        "713": {
+            "link": {
+                "name": "mixamorig5:Neck<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "712",
+            "skin": "485"
+        },
+        "714": {
+            "link": {
+                "name": "mixamorig5:Head<mixamorig5:Neck<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "713",
+            "skin": "485"
+        },
+        "715": {
+            "link": {
+                "name": "mixamorig5:HeadTop_End<mixamorig5:Head<mixamorig5:Neck<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "714",
+            "skin": "485"
+        },
+        "716": {
+            "link": {
+                "name": "mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "712",
+            "skin": "485"
+        },
+        "717": {
+            "link": {
+                "name": "mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "716",
+            "skin": "485"
+        },
+        "718": {
+            "link": {
+                "name": "mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "717",
+            "skin": "485"
+        },
+        "719": {
+            "link": {
+                "name": "mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "718",
+            "skin": "485"
+        },
+        "720": {
+            "link": {
+                "name": "mixamorig5:LeftHandThumb1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "719",
+            "skin": "485"
+        },
+        "721": {
+            "link": {
+                "name": "mixamorig5:LeftHandThumb2<mixamorig5:LeftHandThumb1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "720",
+            "skin": "485"
+        },
+        "722": {
+            "link": {
+                "name": "mixamorig5:LeftHandThumb3<mixamorig5:LeftHandThumb2<mixamorig5:LeftHandThumb1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "721",
+            "skin": "485"
+        },
+        "723": {
+            "link": {
+                "name": "mixamorig5:LeftHandThumb4<mixamorig5:LeftHandThumb3<mixamorig5:LeftHandThumb2<mixamorig5:LeftHandThumb1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "722",
+            "skin": "485"
+        },
+        "724": {
+            "link": {
+                "name": "mixamorig5:LeftHandIndex1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "719",
+            "skin": "485"
+        },
+        "725": {
+            "link": {
+                "name": "mixamorig5:LeftHandIndex2<mixamorig5:LeftHandIndex1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "724",
+            "skin": "485"
+        },
+        "726": {
+            "link": {
+                "name": "mixamorig5:LeftHandIndex3<mixamorig5:LeftHandIndex2<mixamorig5:LeftHandIndex1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "725",
+            "skin": "485"
+        },
+        "727": {
+            "link": {
+                "name": "mixamorig5:LeftHandIndex4<mixamorig5:LeftHandIndex3<mixamorig5:LeftHandIndex2<mixamorig5:LeftHandIndex1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "726",
+            "skin": "485"
+        },
+        "728": {
+            "link": {
+                "name": "mixamorig5:LeftHandMiddle1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "719",
+            "skin": "485"
+        },
+        "729": {
+            "link": {
+                "name": "mixamorig5:LeftHandMiddle2<mixamorig5:LeftHandMiddle1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "728",
+            "skin": "485"
+        },
+        "730": {
+            "link": {
+                "name": "mixamorig5:LeftHandMiddle3<mixamorig5:LeftHandMiddle2<mixamorig5:LeftHandMiddle1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "729",
+            "skin": "485"
+        },
+        "731": {
+            "link": {
+                "name": "mixamorig5:LeftHandMiddle4<mixamorig5:LeftHandMiddle3<mixamorig5:LeftHandMiddle2<mixamorig5:LeftHandMiddle1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "730",
+            "skin": "485"
+        },
+        "732": {
+            "link": {
+                "name": "mixamorig5:LeftHandRing1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "719",
+            "skin": "485"
+        },
+        "733": {
+            "link": {
+                "name": "mixamorig5:LeftHandRing2<mixamorig5:LeftHandRing1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "732",
+            "skin": "485"
+        },
+        "734": {
+            "link": {
+                "name": "mixamorig5:LeftHandRing3<mixamorig5:LeftHandRing2<mixamorig5:LeftHandRing1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "733",
+            "skin": "485"
+        },
+        "735": {
+            "link": {
+                "name": "mixamorig5:LeftHandRing4<mixamorig5:LeftHandRing3<mixamorig5:LeftHandRing2<mixamorig5:LeftHandRing1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "734",
+            "skin": "485"
+        },
+        "736": {
+            "link": {
+                "name": "mixamorig5:LeftHandPinky1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "719",
+            "skin": "485"
+        },
+        "737": {
+            "link": {
+                "name": "mixamorig5:LeftHandPinky2<mixamorig5:LeftHandPinky1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "736",
+            "skin": "485"
+        },
+        "738": {
+            "link": {
+                "name": "mixamorig5:LeftHandPinky3<mixamorig5:LeftHandPinky2<mixamorig5:LeftHandPinky1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "737",
+            "skin": "485"
+        },
+        "739": {
+            "link": {
+                "name": "mixamorig5:LeftHandPinky4<mixamorig5:LeftHandPinky3<mixamorig5:LeftHandPinky2<mixamorig5:LeftHandPinky1<mixamorig5:LeftHand<mixamorig5:LeftForeArm<mixamorig5:LeftArm<mixamorig5:LeftShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "738",
+            "skin": "485"
+        },
+        "740": {
+            "link": {
+                "name": "mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "712",
+            "skin": "485"
+        },
+        "741": {
+            "link": {
+                "name": "mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "740",
+            "skin": "485"
+        },
+        "742": {
+            "link": {
+                "name": "mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "741",
+            "skin": "485"
+        },
+        "743": {
+            "link": {
+                "name": "mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "742",
+            "skin": "485"
+        },
+        "744": {
+            "link": {
+                "name": "mixamorig5:RightHandThumb1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "743",
+            "skin": "485"
+        },
+        "745": {
+            "link": {
+                "name": "mixamorig5:RightHandThumb2<mixamorig5:RightHandThumb1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "744",
+            "skin": "485"
+        },
+        "746": {
+            "link": {
+                "name": "mixamorig5:RightHandThumb3<mixamorig5:RightHandThumb2<mixamorig5:RightHandThumb1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "745",
+            "skin": "485"
+        },
+        "747": {
+            "link": {
+                "name": "mixamorig5:RightHandThumb4<mixamorig5:RightHandThumb3<mixamorig5:RightHandThumb2<mixamorig5:RightHandThumb1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "746",
+            "skin": "485"
+        },
+        "748": {
+            "link": {
+                "name": "mixamorig5:RightHandIndex1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "743",
+            "skin": "485"
+        },
+        "749": {
+            "link": {
+                "name": "mixamorig5:RightHandIndex2<mixamorig5:RightHandIndex1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "748",
+            "skin": "485"
+        },
+        "750": {
+            "link": {
+                "name": "mixamorig5:RightHandIndex3<mixamorig5:RightHandIndex2<mixamorig5:RightHandIndex1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "749",
+            "skin": "485"
+        },
+        "751": {
+            "link": {
+                "name": "mixamorig5:RightHandIndex4<mixamorig5:RightHandIndex3<mixamorig5:RightHandIndex2<mixamorig5:RightHandIndex1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "750",
+            "skin": "485"
+        },
+        "752": {
+            "link": {
+                "name": "mixamorig5:RightHandMiddle1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "743",
+            "skin": "485"
+        },
+        "753": {
+            "link": {
+                "name": "mixamorig5:RightHandMiddle2<mixamorig5:RightHandMiddle1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "752",
+            "skin": "485"
+        },
+        "754": {
+            "link": {
+                "name": "mixamorig5:RightHandMiddle3<mixamorig5:RightHandMiddle2<mixamorig5:RightHandMiddle1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "753",
+            "skin": "485"
+        },
+        "755": {
+            "link": {
+                "name": "mixamorig5:RightHandMiddle4<mixamorig5:RightHandMiddle3<mixamorig5:RightHandMiddle2<mixamorig5:RightHandMiddle1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "754",
+            "skin": "485"
+        },
+        "756": {
+            "link": {
+                "name": "mixamorig5:RightHandRing1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "743",
+            "skin": "485"
+        },
+        "757": {
+            "link": {
+                "name": "mixamorig5:RightHandRing2<mixamorig5:RightHandRing1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "756",
+            "skin": "485"
+        },
+        "758": {
+            "link": {
+                "name": "mixamorig5:RightHandRing3<mixamorig5:RightHandRing2<mixamorig5:RightHandRing1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "757",
+            "skin": "485"
+        },
+        "759": {
+            "link": {
+                "name": "mixamorig5:RightHandRing4<mixamorig5:RightHandRing3<mixamorig5:RightHandRing2<mixamorig5:RightHandRing1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "758",
+            "skin": "485"
+        },
+        "760": {
+            "link": {
+                "name": "mixamorig5:RightHandPinky1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "743",
+            "skin": "485"
+        },
+        "761": {
+            "link": {
+                "name": "mixamorig5:RightHandPinky2<mixamorig5:RightHandPinky1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "760",
+            "skin": "485"
+        },
+        "762": {
+            "link": {
+                "name": "mixamorig5:RightHandPinky3<mixamorig5:RightHandPinky2<mixamorig5:RightHandPinky1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "761",
+            "skin": "485"
+        },
+        "763": {
+            "link": {
+                "name": "mixamorig5:RightHandPinky4<mixamorig5:RightHandPinky3<mixamorig5:RightHandPinky2<mixamorig5:RightHandPinky1<mixamorig5:RightHand<mixamorig5:RightForeArm<mixamorig5:RightArm<mixamorig5:RightShoulder<mixamorig5:Spine2<mixamorig5:Spine1<mixamorig5:Spine<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "762",
+            "skin": "485"
+        },
+        "764": {
+            "link": {
+                "name": "mixamorig5:LeftUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "709",
+            "skin": "485"
+        },
+        "765": {
+            "link": {
+                "name": "mixamorig5:LeftLeg<mixamorig5:LeftUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "764",
+            "skin": "485"
+        },
+        "766": {
+            "link": {
+                "name": "mixamorig5:LeftFoot<mixamorig5:LeftLeg<mixamorig5:LeftUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "765",
+            "skin": "485"
+        },
+        "767": {
+            "link": {
+                "name": "mixamorig5:LeftToeBase<mixamorig5:LeftFoot<mixamorig5:LeftLeg<mixamorig5:LeftUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "766",
+            "skin": "485"
+        },
+        "768": {
+            "link": {
+                "name": "mixamorig5:LeftToe_End<mixamorig5:LeftToeBase<mixamorig5:LeftFoot<mixamorig5:LeftLeg<mixamorig5:LeftUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "767",
+            "skin": "485"
+        },
+        "769": {
+            "link": {
+                "name": "mixamorig5:RightUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "709",
+            "skin": "485"
+        },
+        "770": {
+            "link": {
+                "name": "mixamorig5:RightLeg<mixamorig5:RightUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "769",
+            "skin": "485"
+        },
+        "771": {
+            "link": {
+                "name": "mixamorig5:RightFoot<mixamorig5:RightLeg<mixamorig5:RightUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "770",
+            "skin": "485"
+        },
+        "772": {
+            "link": {
+                "name": "mixamorig5:RightToeBase<mixamorig5:RightFoot<mixamorig5:RightLeg<mixamorig5:RightUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "771",
+            "skin": "485"
+        },
+        "773": {
+            "link": {
+                "name": "mixamorig5:RightToe_End<mixamorig5:RightToeBase<mixamorig5:RightFoot<mixamorig5:RightLeg<mixamorig5:RightUpLeg<mixamorig5:Hips<Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "parent": "772",
+            "skin": "485"
+        },
+        "774": {
+            "name": "Zombie",
+            "components": [
+                {
+                    "type": "zombie",
+                    "zombie": {
+                        "walkingAnim": "23",
+                        "runningAnim": "22",
+                        "player": null,
+                        "moveSpeed": 0.2,
+                        "attackAnim": "19",
+                        "zombieDamaged": "383",
+                        "zombieSkeleton": "709",
+                        "zombieMesh": "708",
+                        "deathAnim": "20"
+                    }
+                },
+                {
+                    "type": "physx",
+                    "physx": {
+                        "sphere": {
+                            "radius": 2.0
+                        },
+                        "translationOffset": [
+                            0.0,
+                            1.2,
+                            0.0
+                        ],
+                        "simulate": true,
+                        "kinematic": true,
+                        "block": 255
+                    }
+                },
+                {
+                    "type": "health-hud",
+                    "health-hud": {
+                        "healthBar": "777",
+                        "healthBarParent": "776",
+                        "player": null
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                8.940698137394065e-8
+            ],
+            "scaling": [
+                0.9999998,
+                1.0,
+                0.9999998
+            ]
+        },
+        "776": {
+            "name": "HealthHUD",
+            "translation": [
+                -0.0070226,
+                0.3990758,
+                0.0801552
+            ],
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                -8.940698137394065e-8
+            ],
+            "scaling": [
+                0.3,
+                1.0,
+                1.0000001
+            ],
+            "parent": "774",
+            "components": []
+        },
+        "777": {
+            "name": "HealthBar",
+            "translation": [
+                0.8303821,
+                1.6086742,
+                0.0482754
+            ],
+            "rotation": [
+                1.0,
+                -0.0,
+                1.2847813479766046e-7,
+                7.549790126404332e-8
+            ],
+            "scaling": [
+                0.8709213,
+                0.0287717,
+                0.0682054
+            ],
+            "parent": "776",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "385",
+                        "mesh": "307"
+                    }
+                }
+            ]
+        },
+        "778": {
+            "name": "HealthBarBackground",
+            "translation": [
+                -0.8705192,
+                1.5524042,
+                0.0877246
+            ],
+            "rotation": [
+                -0.0,
+                1.0,
+                -4.4757737782674667e-7,
+                -1.3205111315528484e-7
+            ],
+            "scaling": [
+                0.8473566,
+                0.0267267,
+                0.0308324
+            ],
+            "parent": "776",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "384",
+                        "mesh": "307"
+                    }
+                }
+            ]
+        }
+    },
+    "meshes": {
+        "7": {
+            "link": {
+                "name": "PrimitivePlane",
+                "file": "default"
+            }
+        },
+        "8": {
+            "link": {
+                "name": "PrimitiveCube",
+                "file": "default"
+            }
+        },
+        "9": {
+            "link": {
+                "name": "PrimitiveSphere",
+                "file": "default"
+            }
+        },
+        "10": {
+            "link": {
+                "name": "PrimitiveCone",
+                "file": "default"
+            }
+        },
+        "11": {
+            "link": {
+                "name": "PrimitiveCylinder",
+                "file": "default"
+            }
+        },
+        "12": {
+            "link": {
+                "name": "PrimitiveCircle",
+                "file": "default"
+            }
+        },
+        "47": {
+            "link": {
+                "name": "controller_plyShape",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "48": {
+            "link": {
+                "name": "controller_plyShape.003",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "49": {
+            "link": {
+                "name": "controller_plyShape.005",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "50": {
+            "link": {
+                "name": "controller_plyShape.006",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "51": {
+            "link": {
+                "name": "controller_plyShape.004",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "52": {
+            "link": {
+                "name": "controller_plyShape.002",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "89": {
+            "link": {
+                "name": "controller_plyShape.004",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "90": {
+            "link": {
+                "name": "controller_plyShape.005",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "91": {
+            "link": {
+                "name": "controller_plyShape",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "92": {
+            "link": {
+                "name": "controller_plyShape.002",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "93": {
+            "link": {
+                "name": "controller_plyShape.003",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "94": {
+            "link": {
+                "name": "controller_plyShape.001",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "132": {
+            "link": {
+                "name": "Mesh",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeft"
+        },
+        "165": {
+            "link": {
+                "name": "Mesh.001",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRight"
+        },
+        "195": {
+            "link": {
+                "name": "Cube.001",
+                "file": "models\\button.glb"
+            },
+            "name": "Button"
+        },
+        "207": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            }
+        },
+        "262": {
+            "link": {
+                "name": "mesh_0",
+                "file": "models\\character\\mannequin.obj"
+            }
+        },
+        "298": {
+            "link": {
+                "name": "mesh_0",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            }
+        },
+        "299": {
+            "link": {
+                "name": "mesh_1",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            }
+        },
+        "300": {
+            "link": {
+                "name": "mesh_2",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            }
+        },
+        "301": {
+            "link": {
+                "name": "mesh_3",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            }
+        },
+        "302": {
+            "link": {
+                "name": "mesh_4",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            }
+        },
+        "303": {
+            "link": {
+                "name": "mesh_5",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            }
+        },
+        "304": {
+            "link": {
+                "name": "mesh_0",
+                "file": "models\\animations\\Running.fbx"
+            }
+        },
+        "305": {
+            "link": {
+                "name": "modelmesh",
+                "file": "models\\character\\mannequin-animations.glb"
+            }
+        },
+        "306": {
+            "link": {
+                "name": "mesh_0",
+                "file": "models\\weapons\\Rifle.fbx"
+            }
+        },
+        "307": {
+            "link": {
+                "name": "Cube",
+                "file": "models\\blockouts\\cube.glb"
+            }
+        },
+        "308": {
+            "link": {
+                "name": "mesh_0",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            },
+            "simplify": true,
+            "simplifyTarget": 0.2
+        },
+        "309": {
+            "link": {
+                "name": "mesh_0",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "310": {
+            "link": {
+                "name": "mesh_0-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "311": {
+            "link": {
+                "name": "mesh_1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "312": {
+            "link": {
+                "name": "mesh_1-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "313": {
+            "link": {
+                "name": "mesh_2",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "314": {
+            "link": {
+                "name": "mesh_2-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "315": {
+            "link": {
+                "name": "mesh_3",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "316": {
+            "link": {
+                "name": "mesh_3-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "317": {
+            "link": {
+                "name": "mesh_4",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "318": {
+            "link": {
+                "name": "mesh_4-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "319": {
+            "link": {
+                "name": "mesh_5",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "320": {
+            "link": {
+                "name": "mesh_5-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "321": {
+            "link": {
+                "name": "mesh_6",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "322": {
+            "link": {
+                "name": "mesh_6-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "323": {
+            "link": {
+                "name": "mesh_7",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "324": {
+            "link": {
+                "name": "mesh_7-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "325": {
+            "link": {
+                "name": "mesh_8",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "326": {
+            "link": {
+                "name": "mesh_8-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "327": {
+            "link": {
+                "name": "mesh_9",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "328": {
+            "link": {
+                "name": "mesh_9-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "329": {
+            "link": {
+                "name": "mesh_10",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "330": {
+            "link": {
+                "name": "mesh_10-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "331": {
+            "link": {
+                "name": "mesh_11",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "332": {
+            "link": {
+                "name": "mesh_11-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "333": {
+            "link": {
+                "name": "mesh_12",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "334": {
+            "link": {
+                "name": "mesh_12-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "335": {
+            "link": {
+                "name": "mesh_13",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "336": {
+            "link": {
+                "name": "mesh_13-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "337": {
+            "link": {
+                "name": "mesh_14",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "338": {
+            "link": {
+                "name": "mesh_14-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "339": {
+            "link": {
+                "name": "mesh_15",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "340": {
+            "link": {
+                "name": "mesh_15-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "341": {
+            "link": {
+                "name": "mesh_16",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "342": {
+            "link": {
+                "name": "mesh_16-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "343": {
+            "link": {
+                "name": "mesh_17",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "344": {
+            "link": {
+                "name": "mesh_17-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "345": {
+            "link": {
+                "name": "mesh_18",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "346": {
+            "link": {
+                "name": "mesh_18-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "347": {
+            "link": {
+                "name": "mesh_19",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "348": {
+            "link": {
+                "name": "mesh_19-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "349": {
+            "link": {
+                "name": "mesh_20",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "350": {
+            "link": {
+                "name": "mesh_20-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "351": {
+            "link": {
+                "name": "mesh_21",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "352": {
+            "link": {
+                "name": "mesh_21-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "353": {
+            "link": {
+                "name": "mesh_22",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "354": {
+            "link": {
+                "name": "mesh_22-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "355": {
+            "link": {
+                "name": "mesh_23",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "356": {
+            "link": {
+                "name": "mesh_23-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "357": {
+            "link": {
+                "name": "mesh_24",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "358": {
+            "link": {
+                "name": "mesh_24-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "359": {
+            "link": {
+                "name": "mesh_25",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "360": {
+            "link": {
+                "name": "mesh_25-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "361": {
+            "link": {
+                "name": "mesh_26",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "362": {
+            "link": {
+                "name": "mesh_26-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "363": {
+            "link": {
+                "name": "mesh_27",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "364": {
+            "link": {
+                "name": "mesh_27-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "365": {
+            "link": {
+                "name": "mesh_28",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "366": {
+            "link": {
+                "name": "mesh_28-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "367": {
+            "link": {
+                "name": "mesh_29",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "368": {
+            "link": {
+                "name": "mesh_29-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "369": {
+            "link": {
+                "name": "mesh_30",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "370": {
+            "link": {
+                "name": "mesh_30-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "371": {
+            "link": {
+                "name": "mesh_31",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "372": {
+            "link": {
+                "name": "mesh_31-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "373": {
+            "link": {
+                "name": "mesh_32",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "374": {
+            "link": {
+                "name": "mesh_32-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "375": {
+            "link": {
+                "name": "mesh_33",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "376": {
+            "link": {
+                "name": "mesh_33-uv1",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "377": {
+            "link": {
+                "name": "mesh_34",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "378": {
+            "link": {
+                "name": "mesh_0",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "379": {
+            "link": {
+                "name": "mesh_1",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "380": {
+            "link": {
+                "name": "Mesh",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "simplify": true,
+            "simplifyTarget": 0.2
+        },
+        "381": {
+            "link": {
+                "name": "Mesh.0",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "simplify": true,
+            "simplifyTarget": 0.1
+        }
+    },
+    "textures": {
+        "44": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "45": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "86": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "87": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "268": {
+            "link": {
+                "name": "mannequin_texture_normal.png",
+                "file": "models\\character\\mannequin_texture_normal.png"
+            }
+        },
+        "271": {
+            "link": {
+                "name": "mannequin_texture_diffuse.png",
+                "file": "models\\character\\mannequin_texture_diffuse.png"
+            }
+        },
+        "274": {
+            "link": {
+                "name": "mannequin_texture_roughness.png",
+                "file": "models\\character\\mannequin_texture_roughness.png"
+            }
+        },
+        "277": {
+            "link": {
+                "name": "mannequin_texture_pbr.png",
+                "file": "models\\character\\mannequin_texture_pbr.png"
+            }
+        },
+        "280": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\mushrooms\\mushrooms.gltf"
+            }
+        },
+        "281": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\mushrooms\\mushrooms.gltf"
+            }
+        },
+        "282": {
+            "link": {
+                "name": "texture_2",
+                "file": "models\\mushrooms\\mushrooms.gltf"
+            }
+        },
+        "283": {
+            "link": {
+                "name": "texture_3",
+                "file": "models\\mushrooms\\mushrooms.gltf"
+            }
+        },
+        "284": {
+            "link": {
+                "name": "texture_4",
+                "file": "models\\mushrooms\\mushrooms.gltf"
+            }
+        },
+        "313": {
+            "link": {
+                "name": "standardSurface3SG_Base_Color.png",
+                "file": "models\\mushrooms\\standardSurface3SG_Base_Color.png"
+            }
+        },
+        "316": {
+            "link": {
+                "name": "standardSurface2SG_Base_Color.png",
+                "file": "models\\mushrooms\\standardSurface2SG_Base_Color.png"
+            }
+        },
+        "319": {
+            "link": {
+                "name": "standardSurface3SG_Roughness.png",
+                "file": "models\\mushrooms\\standardSurface3SG_Roughness.png"
+            }
+        },
+        "322": {
+            "link": {
+                "name": "standardSurface3SG_Emissive.png",
+                "file": "models\\mushrooms\\standardSurface3SG_Emissive.png"
+            }
+        },
+        "337": {
+            "link": {
+                "name": "Sky_Dome_equirectangular-jpg_Unreal_Engine_Game_Engine_147834874_11038213.jpg",
+                "file": "models\\Sky_Dome_equirectangular-jpg_Unreal_Engine_Game_Engine_147834874_11038213.jpg"
+            }
+        },
+        "338": {
+            "link": {
+                "name": "Rifle_Albedo.png",
+                "file": "models\\weapons\\Rifle_Albedo.png"
+            }
+        },
+        "339": {
+            "link": {
+                "name": "Rifle_Metalness.png",
+                "file": "models\\weapons\\Rifle_Metalness.png"
+            }
+        },
+        "340": {
+            "link": {
+                "name": "crosshair-default.png",
+                "file": "models\\crosshair\\crosshair-default.png"
+            }
+        },
+        "341": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            }
+        },
+        "342": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            }
+        },
+        "343": {
+            "link": {
+                "name": "texture_2",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            }
+        },
+        "344": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "345": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "346": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "347": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "348": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "349": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "350": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "351": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "352": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "353": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "354": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "355": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "356": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "357": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "358": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "359": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "360": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "361": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "362": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "363": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "364": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "365": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "366": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "367": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "368": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "369": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "370": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "371": {
+            "link": {
+                "name": "EnvSamplerTex",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "372": {
+            "link": {
+                "name": "file1",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "373": {
+            "link": {
+                "name": "file9",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "374": {
+            "link": {
+                "name": "file5",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "375": {
+            "link": {
+                "name": "file12",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "376": {
+            "link": {
+                "name": "file6",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "377": {
+            "link": {
+                "name": "file11",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "378": {
+            "link": {
+                "name": "file3",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "379": {
+            "link": {
+                "name": "file10",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "380": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "381": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "382": {
+            "link": {
+                "name": "texture_2",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "383": {
+            "link": {
+                "name": "texture_3",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "384": {
+            "link": {
+                "name": "texture_4",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "385": {
+            "link": {
+                "name": "texture_5",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        }
+    },
+    "images": {
+        "42": {
+            "link": {
+                "name": "Image_0",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "maxSize": [
+                1024,
+                1024
+            ]
+        },
+        "43": {
+            "link": {
+                "name": "Image_1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        },
+        "84": {
+            "link": {
+                "name": "Image_0",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "maxSize": [
+                1024,
+                1024
+            ]
+        },
+        "85": {
+            "link": {
+                "name": "Image_1",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        },
+        "267": {
+            "link": {
+                "name": "mannequin_texture_normal.png",
+                "file": "models\\character\\mannequin_texture_normal.png"
+            },
+            "compression": "uastc"
+        },
+        "270": {
+            "link": {
+                "name": "mannequin_texture_diffuse.png",
+                "file": "models\\character\\mannequin_texture_diffuse.png"
+            }
+        },
+        "273": {
+            "link": {
+                "name": "mannequin_texture_roughness.png",
+                "file": "models\\character\\mannequin_texture_roughness.png"
+            }
+        },
+        "276": {
+            "link": {
+                "name": "mannequin_texture_pbr.png",
+                "file": "models\\character\\mannequin_texture_pbr.png"
+            }
+        },
+        "312": {
+            "link": {
+                "name": "standardSurface3SG_Base_Color.png",
+                "file": "models\\mushrooms\\standardSurface3SG_Base_Color.png"
+            }
+        },
+        "315": {
+            "link": {
+                "name": "standardSurface2SG_Base_Color.png",
+                "file": "models\\mushrooms\\standardSurface2SG_Base_Color.png"
+            }
+        },
+        "318": {
+            "link": {
+                "name": "standardSurface3SG_Roughness.png",
+                "file": "models\\mushrooms\\standardSurface3SG_Roughness.png"
+            }
+        },
+        "321": {
+            "link": {
+                "name": "standardSurface3SG_Emissive.png",
+                "file": "models\\mushrooms\\standardSurface3SG_Emissive.png"
+            }
+        },
+        "336": {
+            "link": {
+                "name": "Sky_Dome_equirectangular-jpg_Unreal_Engine_Game_Engine_147834874_11038213.jpg",
+                "file": "models\\Sky_Dome_equirectangular-jpg_Unreal_Engine_Game_Engine_147834874_11038213.jpg"
+            },
+            "compression": "none",
+            "maxSize": [
+                3072,
+                1536
+            ]
+        },
+        "337": {
+            "link": {
+                "name": "Rifle_Albedo.png",
+                "file": "models\\weapons\\Rifle_Albedo.png"
+            }
+        },
+        "338": {
+            "link": {
+                "name": "Rifle_Metalness.png",
+                "file": "models\\weapons\\Rifle_Metalness.png"
+            }
+        },
+        "339": {
+            "link": {
+                "name": "crosshair-default.png",
+                "file": "models\\crosshair\\crosshair-default.png"
+            }
+        },
+        "340": {
+            "link": {
+                "name": "image_0",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            }
+        },
+        "341": {
+            "link": {
+                "name": "image_1",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            }
+        },
+        "342": {
+            "link": {
+                "name": "image_2",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            }
+        },
+        "343": {
+            "link": {
+                "name": "black_interior_BaseColor_1.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "344": {
+            "link": {
+                "name": "Glass_Cracked_BaseColor_5.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "345": {
+            "link": {
+                "name": "Glass_Opaq_Cracked_BaseColor_8.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "346": {
+            "link": {
+                "name": "metal_trim_white_BaseColor_10.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "347": {
+            "link": {
+                "name": "tile_trim_color_red_BaseColor_11.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "348": {
+            "link": {
+                "name": "tile_trim_color_white_BaseColor_12.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "349": {
+            "link": {
+                "name": "metal_trim_black_BaseColor_16.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "350": {
+            "link": {
+                "name": "metal_trim_grey_glossy_BaseColor_17.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "351": {
+            "link": {
+                "name": "metal_trim_black_glossy_BaseColor_18.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "352": {
+            "link": {
+                "name": "cloth_torn_clr_pckr_blue_BaseColor_19.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "353": {
+            "link": {
+                "name": "cloth_awning_torn__default_BaseColor_20.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "354": {
+            "link": {
+                "name": "cloth_awning_intact__default_BaseColor_21.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "355": {
+            "link": {
+                "name": "tile_trim_color_black_BaseColor_25.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "356": {
+            "link": {
+                "name": "Glass_Shards_Opacity_27.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "357": {
+            "link": {
+                "name": "metal_trim_light_grey_BaseColor_28.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "358": {
+            "link": {
+                "name": "M_Street_Light_Emission_BaseColor_32.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "359": {
+            "link": {
+                "name": "M_Street_Light_Emission_EmissiveColor_32.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "360": {
+            "link": {
+                "name": "M_Street_Light_Emission_Normal_32.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "361": {
+            "link": {
+                "name": "M_Street_Light_Pole_BaseColor_33.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "362": {
+            "link": {
+                "name": "M_Street_Light_Pole_EmissiveColor_33.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "363": {
+            "link": {
+                "name": "M_Street_Light_Pole_Normal_33.png",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "364": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1001_Diffuse.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "365": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1002_Diffuse.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "366": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1001_Specular.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "367": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1002_Specular.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "368": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1001_Glossiness.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "369": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1002_Glossiness.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "370": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1001_Normal.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "371": {
+            "link": {
+                "name": "..\\..\\..\\..\\home\\app\\mixamo-mini\\tmp\\skins_5e4beb31-30a6-4307-bf55-7617aa4ef8d1.fbm\\Ch10_1002_Normal.png",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            }
+        },
+        "372": {
+            "link": {
+                "name": "Ch10_1001_Normal",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "maxSize": [
+                512,
+                512
+            ]
+        },
+        "373": {
+            "link": {
+                "name": "Ch10_1001_Diffuse",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "maxSize": [
+                512,
+                512
+            ]
+        },
+        "374": {
+            "link": {
+                "name": "Ch10_1001_Glossiness",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        },
+        "375": {
+            "link": {
+                "name": "Ch10_1002_Normal",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "maxSize": [
+                512,
+                512
+            ]
+        },
+        "376": {
+            "link": {
+                "name": "Ch10_1002_Diffuse",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "maxSize": [
+                512,
+                512
+            ]
+        },
+        "377": {
+            "link": {
+                "name": "Ch10_1002_Glossiness",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        }
+    },
+    "materials": {
+        "DefaultFontMaterial": {
+            "link": {
+                "name": "DefaultFontMaterial",
+                "file": "default"
+            },
+            "Text": {
+                "effectColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "font": "230"
+            }
+        },
+        "20": {
+            "name": "White",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1,
+                "ambientColor": [
+                    0.1921568,
+                    0.1921568,
+                    0.1921568,
+                    1.0
+                ]
+            },
+            "pipeline": "37"
+        },
+        "22": {
+            "name": "Pink",
+            "Phong": {
+                "diffuseColor": [
+                    0.9098039,
+                    0.0,
+                    0.5411764,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 10,
+                "ambientColor": [
+                    0.317647,
+                    0.0,
+                    0.2165777,
+                    1.0
+                ]
+            },
+            "pipeline": "37"
+        },
+        "25": {
+            "name": "Yellow",
+            "Phong": {
+                "diffuseColor": [
+                    1.0,
+                    0.8039215,
+                    0.0,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.3843137,
+                    0.3089579,
+                    0.0,
+                    1.0
+                ]
+            },
+            "pipeline": "37"
+        },
+        "26": {
+            "name": "Green",
+            "Phong": {
+                "diffuseColor": [
+                    0.1529411,
+                    0.7882353,
+                    0.5411764,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0,
+                    0.2352941,
+                    0.1437908,
+                    1.0
+                ]
+            },
+            "pipeline": "37"
+        },
+        "46": {
+            "link": {
+                "name": "skel_controller_materials_controllerMTL1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "name": "ControllerLeft"
+        },
+        "88": {
+            "link": {
+                "name": "skel_controller_materials_controllerMTL",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "name": "ControllerRight"
+        },
+        "128": {
+            "name": "Cursor",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1
+            },
+            "pipeline": "34"
+        },
+        "131": {
+            "link": {
+                "name": "Default_Material",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeft"
+        },
+        "164": {
+            "link": {
+                "name": "lambert2",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRight",
+            "Phong": {
+                "ambientColor": [
+                    0.2117646,
+                    0.2117646,
+                    0.2117646,
+                    1.0
+                ]
+            }
+        },
+        "201": {
+            "link": {
+                "name": "DefaultFontMaterial",
+                "file": "default"
+            },
+            "name": "TextAccent",
+            "Text": {
+                "color": [
+                    0.9098039,
+                    0.0,
+                    0.5411764,
+                    1.0
+                ],
+                "font": "230"
+            }
+        },
+        "202": {
+            "name": "Dark",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1,
+                "diffuseColor": [
+                    0.1686274,
+                    0.1686257,
+                    0.1686257,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0274509,
+                    0.0274507,
+                    0.0274507,
+                    1.0
+                ]
+            },
+            "pipeline": "37"
+        },
+        "203": {
+            "name": "GreenHover",
+            "Phong": {
+                "diffuseColor": [
+                    0.4894117,
+                    0.917647,
+                    0.7511102,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0,
+                    0.3294117,
+                    0.2013071,
+                    1.0
+                ]
+            },
+            "pipeline": "37"
+        },
+        "206": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            },
+            "Phong": {
+                "diffuseColor": [
+                    0.6862745,
+                    0.6862676,
+                    0.6862676,
+                    1.0
+                ]
+            },
+            "pipeline": "34",
+            "Flat": {
+                "color": [
+                    0.8392156,
+                    0.8392072,
+                    0.8392072,
+                    1.0
+                ]
+            }
+        },
+        "265": {
+            "name": "mannequin",
+            "pipeline": "231",
+            "Phong": {
+                "normalTexture": "268",
+                "diffuseTexture": "271",
+                "ambientColor": [
+                    0.2117646,
+                    0.2117646,
+                    0.2117646,
+                    1.0
+                ],
+                "emissiveTexture": null
+            },
+            "Physical": {
+                "albedoTexture": "271",
+                "normalTexture": "268",
+                "roughnessMetallicTexture": "274",
+                "emissiveColor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "emissiveTexture": null
+            }
+        },
+        "285": {
+            "link": {
+                "name": "standardSurface2SG",
+                "file": "models\\mushrooms\\mushrooms.gltf"
+            }
+        },
+        "286": {
+            "link": {
+                "name": "standardSurface3SG",
+                "file": "models\\mushrooms\\mushrooms.gltf"
+            }
+        },
+        "296": {
+            "link": {
+                "name": "standardSurface2SG",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            },
+            "pipeline": "38",
+            "Phong": {
+                "diffuseTexture": "316",
+                "ambientColor": [
+                    0.5764706,
+                    0.5764706,
+                    0.5764706,
+                    1.0
+                ],
+                "emissiveColor": [
+                    0.3294117,
+                    1.0,
+                    0.9447749,
+                    1.0
+                ]
+            }
+        },
+        "297": {
+            "link": {
+                "name": "standardSurface3SG",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            },
+            "pipeline": "38",
+            "Phong": {
+                "diffuseTexture": "313",
+                "emissiveTexture": null,
+                "emissiveColor": [
+                    0.2702037,
+                    0.8750968,
+                    0.9843137,
+                    1.0
+                ]
+            }
+        },
+        "331": {
+            "link": {
+                "name": "standardSurface3SG",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            },
+            "pipeline": "38",
+            "Phong": {
+                "diffuseTexture": "313",
+                "emissiveTexture": null,
+                "emissiveColor": [
+                    0.9843137,
+                    0.2702036,
+                    0.539045,
+                    1.0
+                ]
+            },
+            "name": "standardSurface3SG Copy"
+        },
+        "332": {
+            "link": {
+                "name": "standardSurface2SG",
+                "file": "models\\mushrooms\\Mushrooms.obj"
+            },
+            "pipeline": "38",
+            "Phong": {
+                "diffuseTexture": "316",
+                "ambientColor": [
+                    0.5764706,
+                    0.5764706,
+                    0.5764706,
+                    1.0
+                ],
+                "emissiveColor": [
+                    0.9843137,
+                    0.2705882,
+                    0.5372549,
+                    1.0
+                ]
+            },
+            "name": "standardSurface2SG Copy"
+        },
+        "339": {
+            "name": "Sky",
+            "pipeline": "229",
+            "Sky": {
+                "texture": "337"
+            }
+        },
+        "340": {
+            "link": {
+                "name": "Rifle_M",
+                "file": "models\\weapons\\Rifle.fbx"
+            },
+            "pipeline": "272",
+            "Phong": {
+                "ambientColor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuseColor": [
+                    0.8,
+                    0.7411656,
+                    0.6962788,
+                    1.0
+                ],
+                "specularColor": [
+                    0.2,
+                    0.1852914,
+                    0.1740697,
+                    0.0
+                ],
+                "emissiveColor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 25,
+                "diffuseTexture": "338"
+            }
+        },
+        "341": {
+            "name": "Bullet",
+            "Phong": {
+                "diffuseColor": [
+                    1.0,
+                    0.8039215,
+                    0.0,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.3843137,
+                    0.3089579,
+                    0.0,
+                    1.0
+                ]
+            },
+            "pipeline": "34",
+            "Flat": {
+                "color": [
+                    1.0,
+                    0.8470588,
+                    0.0,
+                    1.0
+                ]
+            }
+        },
+        "342": {
+            "link": {
+                "name": "Material",
+                "file": "models\\blockouts\\cube.glb"
+            },
+            "pipeline": "37",
+            "Flat": {
+                "color": [
+                    0.1882352,
+                    0.1882352,
+                    0.1882352,
+                    1.0
+                ]
+            },
+            "Phong": {
+                "emissiveColor": [
+                    0.1137254,
+                    0.1137254,
+                    0.1137254,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.7450979,
+                    0.7450979,
+                    0.7450979,
+                    1.0
+                ]
+            }
+        },
+        "343": {
+            "link": {
+                "name": "material_0",
+                "file": "models\\scarecrow\\Scarecrow.glb"
+            },
+            "Phong": {
+                "ambientColor": [
+                    0.772549,
+                    0.772549,
+                    0.772549,
+                    1.0
+                ]
+            }
+        },
+        "344": {
+            "link": {
+                "name": "concrete_trim",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "345": {
+            "link": {
+                "name": "black_interior",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "346": {
+            "link": {
+                "name": "metal_trim___default",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "347": {
+            "link": {
+                "name": "bricks_red_concrete_trim",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "348": {
+            "link": {
+                "name": "Glass",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "349": {
+            "link": {
+                "name": "Glass_Cracked",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "350": {
+            "link": {
+                "name": "brick_wall_beige",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "351": {
+            "link": {
+                "name": "Glass_Opaque",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "352": {
+            "link": {
+                "name": "Glass_Opaq_Cracked",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "353": {
+            "link": {
+                "name": "brick_wall_grey",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "354": {
+            "link": {
+                "name": "metal_trim_white",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "355": {
+            "link": {
+                "name": "tile_trim_color_red",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "356": {
+            "link": {
+                "name": "tile_trim_color_white",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "357": {
+            "link": {
+                "name": "store_signs",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "358": {
+            "link": {
+                "name": "tile_trim___default",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "359": {
+            "link": {
+                "name": "stickers_decals",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "360": {
+            "link": {
+                "name": "metal_trim_black",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "361": {
+            "link": {
+                "name": "metal_trim_grey_glossy",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "362": {
+            "link": {
+                "name": "metal_trim_black_glossy",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "363": {
+            "link": {
+                "name": "cloth_torn_clr_pckr_blue",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "364": {
+            "link": {
+                "name": "cloth_awning_torn__default",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "365": {
+            "link": {
+                "name": "cloth_awning_intact__default",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "366": {
+            "link": {
+                "name": "ground_gravel_dirt",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "367": {
+            "link": {
+                "name": "dirt_pebble_pile",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "368": {
+            "link": {
+                "name": "trash_pile",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "369": {
+            "link": {
+                "name": "tile_trim_color_black",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "370": {
+            "link": {
+                "name": "metal_shutters",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "371": {
+            "link": {
+                "name": "Glass_Shards",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "372": {
+            "link": {
+                "name": "metal_trim_light_grey",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "373": {
+            "link": {
+                "name": "bricks_red",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "374": {
+            "link": {
+                "name": "brick_wall_red",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "375": {
+            "link": {
+                "name": "brick_wall_orange",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "376": {
+            "link": {
+                "name": "M_Street_Light_Emission",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            },
+            "pipeline": "223"
+        },
+        "377": {
+            "link": {
+                "name": "M_Street_Light_Pole",
+                "file": "models\\zombie_environment\\SM_ZombieEnvironment.FBX"
+            }
+        },
+        "378": {
+            "link": {
+                "name": "Ch10_body",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            },
+            "Phong": {
+                "ambientColor": [
+                    0.9490196,
+                    0.9490196,
+                    0.9490196,
+                    1.0
+                ]
+            }
+        },
+        "379": {
+            "link": {
+                "name": "Ch10_body1",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            },
+            "Phong": {
+                "ambientColor": [
+                    0.7215685,
+                    0.7215685,
+                    0.7215685,
+                    1.0
+                ]
+            }
+        },
+        "380": {
+            "link": {
+                "name": "Ch10_body",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "Phong": {
+                "ambientColor": [
+                    0.8784313,
+                    0.8784313,
+                    0.8784313,
+                    1.0
+                ]
+            }
+        },
+        "381": {
+            "link": {
+                "name": "Ch10_body1",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "Phong": {
+                "ambientColor": [
+                    0.6235294,
+                    0.6235294,
+                    0.6235294,
+                    1.0
+                ]
+            }
+        },
+        "382": {
+            "name": "PlayerDamageRed",
+            "Phong": {
+                "diffuseColor": [
+                    0.9921568,
+                    0.0,
+                    0.0933794,
+                    0.7843137
+                ],
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
+                    0.5764706
+                ],
+                "shininess": 10,
+                "ambientColor": [
+                    0.317647,
+                    0.0,
+                    0.2165776,
+                    0.8588235
+                ],
+                "emissiveColor": [
+                    0.517647,
+                    0.0,
+                    0.0,
+                    0.4980391
+                ],
+                "fogColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.4666666
+                ]
+            },
+            "pipeline": "269"
+        },
+        "383": {
+            "name": "ZombieDamageRed",
+            "Phong": {
+                "diffuseColor": [
+                    1.0,
+                    0.1999999,
+                    0.2752941,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
+                    0.5764706
+                ],
+                "shininess": 10,
+                "ambientColor": [
+                    0.317647,
+                    0.0,
+                    0.2165776,
+                    0.8588235
+                ],
+                "emissiveColor": [
+                    0.1647058,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "fogColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.4666666
+                ]
+            },
+            "pipeline": "269"
+        },
+        "384": {
+            "name": "White - No Shadow",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1,
+                "ambientColor": [
+                    0.1921568,
+                    0.1921568,
+                    0.1921568,
+                    1.0
+                ]
+            },
+            "pipeline": "271"
+        },
+        "385": {
+            "name": "Pink - No Shadow",
+            "Phong": {
+                "diffuseColor": [
+                    0.9098039,
+                    0.0,
+                    0.5411764,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 10,
+                "ambientColor": [
+                    0.317647,
+                    0.0,
+                    0.2165777,
+                    1.0
+                ]
+            },
+            "pipeline": "271"
+        }
+    },
+    "shaders": {
+        "2": {
+            "link": {
+                "name": "Flat.frag",
+                "file": "default"
+            }
+        },
+        "4": {
+            "link": {
+                "name": "MeshVisualizer.frag",
+                "file": "default"
+            }
+        },
+        "5": {
+            "link": {
+                "name": "Phong.frag",
+                "file": "default"
+            }
+        },
+        "28": {
+            "link": {
+                "name": "Dynamic.vert",
+                "file": "default"
+            }
+        },
+        "30": {
+            "link": {
+                "name": "Skinning.vert",
+                "file": "default"
+            }
+        },
+        "32": {
+            "link": {
+                "name": "DistanceFieldVector.frag",
+                "file": "default"
+            }
+        },
+        "37": {
+            "link": {
+                "name": "Particle.frag",
+                "file": "default"
+            }
+        },
+        "217": {
+            "link": {
+                "name": "Background.frag",
+                "file": "default"
+            }
+        },
+        "218": {
+            "link": {
+                "name": "Depth.frag",
+                "file": "default"
+            }
+        },
+        "220": {
+            "link": {
+                "name": "FullScreenTriangle.vert",
+                "file": "default"
+            }
+        },
+        "221": {
+            "link": {
+                "name": "Physical.frag",
+                "file": "default"
+            }
+        },
+        "224": {
+            "link": {
+                "name": "Sky.frag",
+                "file": "default"
+            }
+        },
+        "225": {
+            "link": {
+                "name": "Text.frag",
+                "file": "default"
+            }
+        },
+        "227": {
+            "link": {
+                "name": "Text.vert",
+                "file": "default"
+            }
+        },
+        "228": {
+            "link": {
+                "name": "TileFeedback.frag",
+                "file": "default"
+            }
+        },
+        "256": {
+            "link": {
+                "name": "AtmosphericSky.frag",
+                "file": "default"
+            }
+        },
+        "271": {
+            "link": {
+                "name": "Color.frag",
+                "file": "default"
+            }
+        }
+    },
+    "settings": {
+        "project": {
+            "name": "ZombieCharacter",
+            "version": [
+                1,
+                5,
+                2
+            ],
+            "prefab": true,
+            "description": "The zombie character prefab, for instances spawning."
+        },
+        "xr": {
+            "leftEyeObject": null,
+            "rightEyeObject": null,
+            "webxr": {
+                "optionalFeatures": {
+                    "local-floor": true
+                }
+            }
+        },
+        "scripting": {
+            "application": {
+                "output": "ThirdPersonShooter-app.js",
+                "bundling": "esbuild"
+            },
+            "components": {
+                "output": "ThirdPersonShooter-bundle.js",
+                "sourcePaths": [
+                    "js/",
+                    "js/debugs",
+                    "js/weapons",
+                    "js/scarecrow",
+                    "js/zombie"
+                ]
+            }
+        },
+        "runtime": {
+            "visualizeColliders": false,
+            "visualizePhysX": false,
+            "loadUncompressedImagesAsBitmap": false,
+            "enableRuntimeGltf": false
+        },
+        "rendering": {
+            "environment": {
+                "enabled": false,
+                "image": "336",
+                "intensity": 1.0,
+                "mode": "spherical-harmonic-2",
+                "bakingMode": "image"
+            },
+            "sky": {
+                "enabled": false,
+                "material": "339"
+            },
+            "bloom": {
+                "threshold": 1.875
+            },
+            "compressedTextureAtlasSize": [
+                65536,
+                65536
+            ],
+            "shadowMapSize": [
+                4096,
+                4096
+            ],
+            "textureAtlasSize": [
+                8192,
+                8192
+            ]
+        },
+        "physx": {
+            "enable": true
+        },
+        "editor": {
+            "camera": {
+                "far": 1000.0
+            }
+        }
+    },
+    "animations": {
+        "1": {
+            "link": {
+                "name": "mixamo.com",
+                "file": "models\\animations\\Running.fbx"
+            },
+            "name": "running"
+        },
+        "2": {
+            "link": {
+                "name": "idle",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "3": {
+            "link": {
+                "name": "jumpAir",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "4": {
+            "link": {
+                "name": "jumpEnd",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "5": {
+            "link": {
+                "name": "jumpStart",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "6": {
+            "link": {
+                "name": "pose",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "7": {
+            "link": {
+                "name": "running",
+                "file": "models\\character\\mannequin-animations.glb"
+            }
+        },
+        "8": {
+            "link": {
+                "name": "aimRifle",
+                "file": "models\\character\\mannequin-animations.glb"
+            }
+        },
+        "9": {
+            "link": {
+                "name": "runningHoldingRifle",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "10": {
+            "link": {
+                "name": "walking",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "11": {
+            "link": {
+                "name": "rifleAimBackward",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "12": {
+            "link": {
+                "name": "rifleAimForward",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "13": {
+            "link": {
+                "name": "rifleAimLeft",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "14": {
+            "link": {
+                "name": "rifleAimRight",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "15": {
+            "link": {
+                "name": "rifleAimIdle",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "16": {
+            "link": {
+                "name": "rifleAimJump",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "17": {
+            "link": {
+                "name": "rifleIdle",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "18": {
+            "link": {
+                "name": "rifleReload",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "targets": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "19": {
+            "link": {
+                "name": "zombieAttack",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "20": {
+            "link": {
+                "name": "zombieDeath",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "21": {
+            "link": {
+                "name": "zombiePoseT",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "22": {
+            "link": {
+                "name": "zombieRunning",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        },
+        "23": {
+            "link": {
+                "name": "zombieWalking",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            }
+        }
+    },
+    "skins": {
+        "133": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeftSkin",
+            "joints": []
+        },
+        "166": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRightSkin",
+            "joints": []
+        },
+        "480": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeftSkin",
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "481": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRightSkin",
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "482": {
+            "link": {
+                "name": "Skin",
+                "file": "models\\animations\\Running.fbx"
+            },
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "483": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\character\\mannequin-animations.glb"
+            },
+            "joints": []
+        },
+        "484": {
+            "link": {
+                "name": "skin_0",
+                "file": "models\\zombie\\Zombie_Walking_Skin.fbx"
+            },
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "485": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "joints": [
+                "709",
+                "710",
+                "711",
+                "712",
+                "713",
+                "714",
+                "715",
+                "716",
+                "717",
+                "718",
+                "719",
+                "720",
+                "721",
+                "722",
+                "723",
+                "724",
+                "725",
+                "726",
+                "727",
+                "728",
+                "729",
+                "730",
+                "731",
+                "732",
+                "733",
+                "734",
+                "735",
+                "736",
+                "737",
+                "738",
+                "739",
+                "740",
+                "741",
+                "742",
+                "743",
+                "744",
+                "745",
+                "746",
+                "747",
+                "748",
+                "749",
+                "750",
+                "751",
+                "752",
+                "753",
+                "754",
+                "755",
+                "756",
+                "757",
+                "758",
+                "759",
+                "760",
+                "761",
+                "762",
+                "763",
+                "764",
+                "765",
+                "766",
+                "767",
+                "768",
+                "769",
+                "770",
+                "771",
+                "772",
+                "773"
+            ]
+        },
+        "486": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "487": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "488": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "489": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "joints": [
+                "709",
+                "710",
+                "711",
+                "712",
+                "713",
+                "714",
+                "715",
+                "716",
+                "717",
+                "718",
+                "719",
+                "720",
+                "721",
+                "722",
+                "723",
+                "724",
+                "725",
+                "726",
+                "727",
+                "728",
+                "729",
+                "730",
+                "731",
+                "732",
+                "733",
+                "734",
+                "735",
+                "736",
+                "737",
+                "738",
+                "739",
+                "740",
+                "741",
+                "742",
+                "743",
+                "744",
+                "745",
+                "746",
+                "747",
+                "748",
+                "749",
+                "750",
+                "751",
+                "752",
+                "753",
+                "754",
+                "755",
+                "756",
+                "757",
+                "758",
+                "759",
+                "760",
+                "761",
+                "762",
+                "763",
+                "764",
+                "765",
+                "766",
+                "767",
+                "768",
+                "769",
+                "770",
+                "771",
+                "772",
+                "773"
+            ]
+        },
+        "490": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\zombie\\zombieCharacter.glb"
+            },
+            "joints": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "pipelines": {
+        "33": {
+            "link": {
+                "name": "DistanceFieldVector",
+                "file": "default"
+            }
+        },
+        "34": {
+            "link": {
+                "name": "Flat Opaque",
+                "file": "default"
+            }
+        },
+        "35": {
+            "link": {
+                "name": "Flat Opaque Textured",
+                "file": "default"
+            }
+        },
+        "36": {
+            "link": {
+                "name": "MeshVisualizer",
+                "file": "default"
+            }
+        },
+        "37": {
+            "link": {
+                "name": "Phong Opaque",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true
+            }
+        },
+        "38": {
+            "link": {
+                "name": "Phong Opaque Textured",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true
+            },
+            "name": "Phong Opaque Textured"
+        },
+        "39": {
+            "link": {
+                "name": "Foliage",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true
+            }
+        },
+        "40": {
+            "link": {
+                "name": "Particle",
+                "file": "default"
+            }
+        },
+        "219": {
+            "link": {
+                "name": "Depth",
+                "file": "default"
+            }
+        },
+        "222": {
+            "link": {
+                "name": "Physical Opaque",
+                "file": "default"
+            },
+            "features": {
+                "SEPARATE_OCCLUSION_TEXTURE": true
+            }
+        },
+        "223": {
+            "link": {
+                "name": "Physical Opaque Textured",
+                "file": "default"
+            },
+            "features": {
+                "SEPARATE_OCCLUSION_TEXTURE": true,
+                "WITH_EMISSIVE": true,
+                "NORMAL_MAPPING": true,
+                "GLOBAL_ILLUMINATION": false
+            }
+        },
+        "226": {
+            "link": {
+                "name": "Text",
+                "file": "default"
+            }
+        },
+        "229": {
+            "link": {
+                "name": "Sky",
+                "file": "default"
+            }
+        },
+        "231": {
+            "link": {
+                "name": "Phong Normalmapped",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true
+            }
+        },
+        "232": {
+            "link": {
+                "name": "Phong Lightmapped",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true
+            }
+        },
+        "248": {
+            "link": {
+                "name": "TileFeedback",
+                "file": "default"
+            }
+        },
+        "261": {
+            "link": {
+                "name": "AtmosphericSky",
+                "file": "default"
+            }
+        },
+        "266": {
+            "link": {
+                "name": "Phong Opaque Textured",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true,
+                "NORMAL_MAPPING": true,
+                "GLOBAL_ILLUMINATION": false
+            },
+            "name": "Phong Opaque Textured - Full"
+        },
+        "267": {
+            "link": {
+                "name": "Color",
+                "file": "default"
+            }
+        },
+        "268": {
+            "link": {
+                "name": "VertexColor",
+                "file": "default"
+            }
+        },
+        "269": {
+            "link": {
+                "name": "Phong Opaque",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true,
+                "ALPHA_MASKED": true
+            },
+            "name": "Phong Opaque - Alpha",
+            "blending": true,
+            "blendSrcAlpha": "one",
+            "sampleAlphaToCoverage": true,
+            "colorWrite": {
+                "alpha": true,
+                "blue": true,
+                "green": true,
+                "red": true
+            },
+            "depthFunction": "less or equal",
+            "castShadows": true
+        },
+        "270": {
+            "link": {
+                "name": "Phong Opaque",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true
+            },
+            "name": "x"
+        },
+        "271": {
+            "link": {
+                "name": "Phong Opaque",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true
+            },
+            "name": "Phong Opaque - No Shadow",
+            "castShadows": false
+        },
+        "272": {
+            "link": {
+                "name": "Phong Opaque Textured",
+                "file": "default"
+            },
+            "features": {
+                "DEPRECATED_LIGHT_ATTENUATION": true,
+                "WITH_EMISSIVE": true
+            },
+            "name": "Phong Opaque Textured - No Shadow",
+            "castShadows": false
+        }
+    },
+    "files": {
+        "250": {
+            "fileName": "models/oculus-touch-v2-left.glb",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "251": {
+            "fileName": "models/oculus-touch-v2-right.glb",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "252": {
+            "fileName": "models/hand-left.glb",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "253": {
+            "fileName": "models/hand-right.glb",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "254": {
+            "fileName": "models/button.glb",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "255": {
+            "fileName": "models/teleport-indicator.glb",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "264": {
+            "fileName": "models/character/mannequin.obj",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "269": {
+            "fileName": "models/character/mannequin_texture_normal.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "272": {
+            "fileName": "models/character/mannequin_texture_diffuse.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "275": {
+            "fileName": "models/character/mannequin_texture_roughness.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "278": {
+            "fileName": "models/character/mannequin_texture_pbr.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "291": {
+            "fileName": "models/mushrooms/mushrooms.gltf",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "310": {
+            "fileName": "models/mushrooms/Mushrooms.obj",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "314": {
+            "fileName": "models/mushrooms/standardSurface3SG_Base_Color.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "317": {
+            "fileName": "models/mushrooms/standardSurface2SG_Base_Color.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "320": {
+            "fileName": "models/mushrooms/standardSurface3SG_Roughness.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "323": {
+            "fileName": "models/mushrooms/standardSurface3SG_Emissive.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "338": {
+            "fileName": "models/Sky_Dome_equirectangular-jpg_Unreal_Engine_Game_Engine_147834874_11038213.jpg",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "339": {
+            "fileName": "models/animations/Running.fbx",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "340": {
+            "fileName": "models/character/mannequin-animations.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "341": {
+            "fileName": "models/weapons/Rifle.fbx",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "342": {
+            "fileName": "models/weapons/Rifle_Albedo.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "343": {
+            "fileName": "models/weapons/Rifle_Metalness.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "344": {
+            "fileName": "models/crosshair/crosshair-default.png",
+            "importerName": "",
+            "colorSpace": "srgb"
+        },
+        "345": {
+            "fileName": "models/blockouts/cube.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "346": {
+            "fileName": "models/scarecrow/Scarecrow.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true,
+            "colorSpace": "srgb"
+        },
+        "347": {
+            "fileName": "models/zombie/zombieCharacter.glb",
+            "importerName": ""
+        },
+        "348": {
+            "fileName": "js/health-hud.js",
+            "importerName": ""
+        },
+        "349": {
+            "fileName": "js/health-hud2.js",
+            "importerName": ""
+        },
+        "350": {
+            "fileName": "js/health-hud3.js",
+            "importerName": ""
+        },
+        "351": {
+            "fileName": "js/ahhh.js",
+            "importerName": ""
+        },
+        "352": {
+            "fileName": "js/button.js",
+            "importerName": ""
+        },
+        "353": {
+            "fileName": "js/zombie/zombie-spawner.js",
+            "importerName": ""
+        },
+        "354": {
+            "fileName": "js/zombie/zombie-prefab.js",
+            "importerName": ""
+        },
+        "355": {
+            "fileName": "js/zombie/zombie-prefab2.js",
+            "importerName": ""
+        },
+        "356": {
+            "fileName": "js/zombie/aaaa.js",
+            "importerName": ""
+        }
+    },
+    "fonts": {
+        "230": {
+            "link": {
+                "name": "DejaVuSans.ttf",
+                "file": "default"
+            }
+        }
+    },
+    "languages": {},
+    "morphTargets": {},
+    "particleEffects": {},
+    "audioClips": {},
+    "shaderChunks": {
+        "1": {
+            "link": {
+                "name": "lib\\Color.glsl",
+                "file": "default"
+            }
+        },
+        "2": {
+            "link": {
+                "name": "lib\\Compatibility.glsl",
+                "file": "default"
+            }
+        },
+        "3": {
+            "link": {
+                "name": "lib\\CoordinateSystems.glsl",
+                "file": "default"
+            }
+        },
+        "4": {
+            "link": {
+                "name": "lib\\DrawUniforms.glsl",
+                "file": "default"
+            }
+        },
+        "5": {
+            "link": {
+                "name": "lib\\GI.glsl",
+                "file": "default"
+            }
+        },
+        "6": {
+            "link": {
+                "name": "lib\\Inputs.glsl",
+                "file": "default"
+            }
+        },
+        "7": {
+            "link": {
+                "name": "lib\\Lights.glsl",
+                "file": "default"
+            }
+        },
+        "8": {
+            "link": {
+                "name": "lib\\Materials.glsl",
+                "file": "default"
+            }
+        },
+        "9": {
+            "link": {
+                "name": "lib\\Math.glsl",
+                "file": "default"
+            }
+        },
+        "10": {
+            "link": {
+                "name": "lib\\MorphTargets.glsl",
+                "file": "default"
+            }
+        },
+        "11": {
+            "link": {
+                "name": "lib\\Packing.glsl",
+                "file": "default"
+            }
+        },
+        "12": {
+            "link": {
+                "name": "lib\\PhysicalBSDF.glsl",
+                "file": "default"
+            }
+        },
+        "13": {
+            "link": {
+                "name": "lib\\Quaternion.glsl",
+                "file": "default"
+            }
+        },
+        "14": {
+            "link": {
+                "name": "lib\\SkyProcedural.glsl",
+                "file": "default"
+            }
+        },
+        "15": {
+            "link": {
+                "name": "lib\\Slug.frag.glsl",
+                "file": "default"
+            }
+        },
+        "16": {
+            "link": {
+                "name": "lib\\Slug.vert.glsl",
+                "file": "default"
+            }
+        },
+        "17": {
+            "link": {
+                "name": "lib\\Surface.glsl",
+                "file": "default"
+            }
+        },
+        "18": {
+            "link": {
+                "name": "lib\\Textures.glsl",
+                "file": "default"
+            }
+        },
+        "19": {
+            "link": {
+                "name": "lib\\Uniforms.glsl",
+                "file": "default"
+            }
+        }
+    },
+    "probeVolumeScenarios": {},
+    "plugins": {}
+}
